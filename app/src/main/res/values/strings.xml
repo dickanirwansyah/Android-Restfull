@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rest Client Android</string>
+    <string name="btn_tambah_product">Tambah Product</string>
+    <string name="text_view_nama">Text View Nama</string>
+    <string name="text_view_jumlah">Text View Jumlah</string>
+    <string name="text_view_price">Text view price</string>
+</resources>
