@@ -1,9 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.dicka.spring.restfullandroid.AddActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textNamaProduct"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:hint="@string/hintTextNamaProduct"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingTop="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/text_view_price"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hintTextPriceProduct"
+        android:paddingTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_jumlah"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintTextJumlahProduct"
+        android:inputType="number"
+        android:paddingTop="15dp"
+        />
+
+
+        <Button
+            android:id="@+id/btnSimpanProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSimpanProduct"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <Button
+            android:id="@+id/btnCancelProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCancelProduct"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+</LinearLayout>
+
+
+    
